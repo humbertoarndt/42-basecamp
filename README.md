@@ -18,7 +18,15 @@ Reference repository for all the 42 C Basecamp projects.
 * [C02](https://github.com/humbertoarndt/42-basecamp/tree/main/c_02)
 * [C03](https://github.com/humbertoarndt/42-basecamp/tree/main/c_03)
 * [C04](https://github.com/humbertoarndt/42-basecamp/tree/main/c_04)
+* C05
 * [C06](https://github.com/humbertoarndt/42-basecamp/tree/main/c_06)
+* C07
+* C08
+* C09
+* C10
+* C11
+* C12
+* C13
 * [RUSH 00](https://github.com/humbertoarndt/42-basecamp/tree/main/rush_00)
 * [RUSH 01](https://github.com/humbertoarndt/42-basecamp/tree/main/rush_00)
 ## Shell 00

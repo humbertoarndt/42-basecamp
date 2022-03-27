@@ -1,5 +1,5 @@
 # 42 São Paulo - Basecamp/22 🚀
-Version: March 2022
+Version: March 2022 - Created
 ## Overview
 Repository with my work while camper and cadet [@42SP](https://www.42sp.org.br), that follows a logical sequence of long-lasting that speak to businesses.
 These skills aldo have the same fundamental element: personal adaptability, learning, coping and solving new challenges that they will inevitably face regularly. Even if it has a few obligatory paths, 42's program is individually tailored throughout their educational experience. Many classical themes are addressed in order to develop the skills the contain, like:

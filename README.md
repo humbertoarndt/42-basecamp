@@ -122,8 +122,8 @@ Reference repository for all the 42 C Basecamp projects.
 ## C08
 * ex00: ft.h
 * ex01: ft_boolean.h
-[* ex02: ft_abs.h](https://github.com/humbertoarndt/42-basecamp/tree/main/c_08/ex02)
-[* ex03: ft_point.h](https://github.com/humbertoarndt/42-basecamp/tree/main/c_08/ex03)
+* [ex02: ft_abs.h](https://github.com/humbertoarndt/42-basecamp/tree/main/c_08/ex02)
+* [ex03: ft_point.h](https://github.com/humbertoarndt/42-basecamp/tree/main/c_08/ex03)
 * ex04: ft_strs_to_tab
 * ex05: ft_show_tab
 ## C09

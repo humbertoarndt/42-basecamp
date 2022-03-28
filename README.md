@@ -175,4 +175,4 @@ Reference repository for all the 42 C Basecamp projects.
 ## RUSH 00
 * [ex00: Project](https://github.com/humbertoarndt/42-basecamp/tree/main/rush_00)
 ## RUSH 01
-* [ex00: Project](https://github.com/humbertoarndt/42-basecamp/tree/main/rush_01)
+* [ex00: Project](https://github.com/humbertoarndt/42-basecamp/tree/main/rush_01) - Does not work yet

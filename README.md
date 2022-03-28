@@ -18,17 +18,17 @@ Reference repository for all the 42 C Basecamp projects.
 * [C02](https://github.com/humbertoarndt/42-basecamp/tree/main/c_02)
 * [C03](https://github.com/humbertoarndt/42-basecamp/tree/main/c_03)
 * [C04](https://github.com/humbertoarndt/42-basecamp/tree/main/c_04)
-* C05
+* [C05](https://github.com/humbertoarndt/42-basecamp/tree/main/c_05)
 * [C06](https://github.com/humbertoarndt/42-basecamp/tree/main/c_06)
-* C07
-* C08
-* C09
-* C10
-* C11
+* [C07](https://github.com/humbertoarndt/42-basecamp/tree/main/c_07)
+* [C08](https://github.com/humbertoarndt/42-basecamp/tree/main/c_08)
+* [C09](https://github.com/humbertoarndt/42-basecamp/tree/main/c_09)
+* [C10](https://github.com/humbertoarndt/42-basecamp/tree/main/c_10)
+* [C11](https://github.com/humbertoarndt/42-basecamp/tree/main/c_11)
 * C12
 * C13
 * [RUSH 00](https://github.com/humbertoarndt/42-basecamp/tree/main/rush_00)
-* [RUSH 01](https://github.com/humbertoarndt/42-basecamp/tree/main/rush_00)
+* [RUSH 01](https://github.com/humbertoarndt/42-basecamp/tree/main/rush_01)
 ## Shell 00
 * [ex00: Z](https://github.com/humbertoarndt/42-basecamp/tree/main/shell_00/ex00)
 * [ex01: testShell00](https://github.com/humbertoarndt/42-basecamp/tree/main/shell_00/ex01)
@@ -98,8 +98,8 @@ Reference repository for all the 42 C Basecamp projects.
 * ex04: ft_putnbr_base
 * ex05: ft_atoi_base
 ## C05
-* ex00: ft_iterative_factorial
-* ex01: ft_recursive_factorial
+* [ex00: ft_iterative_factorial](https://github.com/humbertoarndt/42-basecamp/tree/main/c_05/ex00)
+* [ex01: ft_recursive_factorial](https://github.com/humbertoarndt/42-basecamp/tree/main/c_05/ex01)
 * ex02: ft_iterative_power
 * ex03: ft_recursive_power
 * ex04: ft_fibonacci
@@ -109,12 +109,12 @@ Reference repository for all the 42 C Basecamp projects.
 * ex08: As dez damas
 ## C06
 * [ex00: ft_print_program_name](https://github.com/humbertoarndt/42-basecamp/tree/main/c_06/ex00)
-* [ex01: ft_print_params](https://github.com/humbertoarndt/42-basecamp/tree/main/c_06/ex00)
+* [ex01: ft_print_params](https://github.com/humbertoarndt/42-basecamp/tree/main/c_06/ex01)
 * ex02: ft_rev_params
-* ex03: ft_sort_params
+* [ex03: ft_sort_params](https://github.com/humbertoarndt/42-basecamp/tree/main/c_06/ex03)
 ## C07
-* ex00: ft_strup
-* ex01: ft_range
+* [ex00: ft_strup](https://github.com/humbertoarndt/42-basecamp/tree/main/c_07/ex00)
+* [ex01: ft_range](https://github.com/humbertoarndt/42-basecamp/tree/main/c_07/ex01)
 * ex02: ft_ultimate_range
 * ex03: ft_join
 * ex04: ft_convert_base
@@ -122,24 +122,24 @@ Reference repository for all the 42 C Basecamp projects.
 ## C08
 * ex00: ft.h
 * ex01: ft_boolean.h
-* ex02: ft_abs.h
-* ex03: ft_point.h
+[* ex02: ft_abs.h](https://github.com/humbertoarndt/42-basecamp/tree/main/c_08/ex02)
+[* ex03: ft_point.h](https://github.com/humbertoarndt/42-basecamp/tree/main/c_08/ex03)
 * ex04: ft_strs_to_tab
 * ex05: ft_show_tab
 ## C09
 * ex00: libft
-* ex01: Makefile
+* [ex01: Makefile](https://github.com/humbertoarndt/42-basecamp/tree/main/c_09/ex01)
 * ex02: ft_split
 ## C10
-* ex00: display_fila
+* [ex00: display_file](https://github.com/humbertoarndt/42-basecamp/tree/main/c_10/ex00)
 * ex01: cat
 * ex02: tail
 * ex03: hexdump
 ## C11
-* ex00: ft_foreach
+* [ex00: ft_foreach](https://github.com/humbertoarndt/42-basecamp/tree/main/c_11/ex00)
 * ex01: ft_map
 * ex02: ft_any
-* ex03: ft_count_if
+* [ex03: ft_count_if](https://github.com/humbertoarndt/42-basecamp/tree/main/c_11/ex03)
 * ex04: ft_is_sort
 * ex05: ft_do-op
 * ex06: ft_sort_string_tab

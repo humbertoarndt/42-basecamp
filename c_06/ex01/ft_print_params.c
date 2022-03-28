@@ -5,12 +5,12 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: harndt <harndt@student.42sp.org.br>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/02/18 23:18:03 by harndt            #+#    #+#             */
-/*   Updated: 2022/02/19 03:22:31 by harndt           ###   ########.fr       */
+/*   Created: 2022/03/24 14:19:30 by harndt            #+#    #+#             */
+/*   Updated: 2022/03/26 02:12:56 by harndt           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+void	ft_putchar(char c);
 
 int	main(int argc, char **argv)
 {
@@ -18,15 +18,14 @@ int	main(int argc, char **argv)
 	int	j;
 
 	i = 1;
+	if (argc < 1)
+		return (0);
 	while (i < argc)
 	{
 		j = 0;
 		while (argv[i][j] != '\0')
-		{
-			write(1, &argv[i][j], 1);
-			j++;
-		}
-		write(1, "\n", 1);
+			ft_putchar(argv[i][j++]);
+		ft_putchar('\n');
 		i++;
 	}
 	return (0);

@@ -6,7 +6,7 @@
 /*   By: harndt <humberto.arndt@gmail.com>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/29 11:24:52 by harndt            #+#    #+#             */
-/*   Updated: 2022/03/29 12:01:51 by harndt           ###   ########.fr       */
+/*   Updated: 2022/03/29 12:35:05 by harndt           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,8 @@ int	ft_iterative_power(int nb, int power)
 
 	if (power == 0)
 		return (1);
+	else if (power < 0)
+		return (0);
 	else
 	{
 		base = nb;

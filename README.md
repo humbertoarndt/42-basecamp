@@ -100,7 +100,7 @@ Reference repository for all the 42 C Basecamp projects.
 ## C05
 * [ex00: ft_iterative_factorial](https://github.com/humbertoarndt/42-basecamp/tree/main/c_05/ex00)
 * [ex01: ft_recursive_factorial](https://github.com/humbertoarndt/42-basecamp/tree/main/c_05/ex01)
-* ex02: ft_iterative_power
+* [ex02: ft_iterative_power](https://github.com/humbertoarndt/42-basecamp/tree/main/c_05/ex02)
 * ex03: ft_recursive_power
 * ex04: ft_fibonacci
 * ex05: ft_sqrt

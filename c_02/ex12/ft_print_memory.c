@@ -11,12 +11,6 @@
 /* ************************************************************************** */
 
 #include <unistd.h>
-#include <stdio.h>
-
-//receber um array do tipo char e seu tamanho
-//imprimir a primeira posição
-//imprimir imprimir 16 pares de posições
-//imprimir 16 posições
 
 void	ft_putchar(char c)
 {
@@ -97,18 +91,3 @@ void	*ft_print_memory(void *addr, unsigned int size)
 	}
 	return (addr);
 }
-
-int		main(void)
-{
-	// char	arr[] = "abcdefghijklmnopqrstuvwxyz";
-	char	arr[] = "Furueru hodo kokoro moetsukiru hodo atsuku Sono te kara hanate kodou karada minagiru yuuki de Mayou naki kakugo 'Kassai' wo! ~Sono chi no sadame ~JoJo~";
-	// char	arr[] = "Bonjour les amin";
-	void	*p;
-	int		i = -1;
-
-	while (arr[++i] != '\0')
-	p = arr;
-	// printf("%d\n", i);
-	ft_print_memory(p, i);
-}
-

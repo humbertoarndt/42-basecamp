@@ -50,9 +50,3 @@ void	ft_putstr_non_printable(char *str)
 			ft_putchar(str[i]);
 	}
 }
-
-int	main(void)
-{
-	unsigned char	arr[] = "HUMBERT\nO";
-	ft_putstr_non_printable(arr);
-}

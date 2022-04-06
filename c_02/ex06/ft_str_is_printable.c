@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_str_is_printable.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: harndt <harndt@student.42sp.org.br>        +#+  +:+       +#+        */
+/*   By: harndt <humberto.arndt@gmail.com>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/15 14:16:37 by harndt            #+#    #+#             */
-/*   Updated: 2022/02/18 02:14:07 by harndt           ###   ########.fr       */
+/*   Updated: 2022/04/06 09:47:01 by harndt           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,15 +22,4 @@ int	ft_str_is_printable(char *str)
 		i++;
 	}
 	return (1);
-}
-
-
-#include <stdio.h>
-
-int main(void)
-{
-	char arr[1] = "\n";
-	int x = -1;
-	x = ft_str_is_printable(arr);
-	printf("X Contém apenas imprimíveis: %d\n", x);
 }

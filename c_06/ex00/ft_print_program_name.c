@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_print_program_name.c                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: harndt <harndt@student.42sp.org.br>        +#+  +:+       +#+        */
+/*   By: harndt <humberto.arndt@gmail.com>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/18 22:34:35 by harndt            #+#    #+#             */
-/*   Updated: 2022/02/19 03:22:35 by harndt           ###   ########.fr       */
+/*   Updated: 2022/04/06 09:49:56 by harndt           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,6 +20,6 @@ int	main(int argc, char **argv)
 	while (argv[0][i++] != '\0')
 		write(1, &argv[0][i], 1);
 	write (1, "\n", 1);
-	(void)ac;
+	(void)argc;
 	return (0);
 }

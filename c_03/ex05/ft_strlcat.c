@@ -10,7 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
 #include <unistd.h>
 
 int	ft_strlen(char *str)
@@ -40,14 +39,4 @@ unsigned int ft_strlcat(char *dest, char *src, unsigned int size)
 	}
 	dest[d_len + i] = '\0';
 	return(ft_strlen(dest));
-}
-
-int	main(void)
-{
-	char	dest[] = "Humberto";
-	char	src[] = "Doisberto";
-	int		size;
-
-	size = ft_strlen(src);
-	ft_strlcat(dest, src, size);
 }

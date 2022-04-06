@@ -11,15 +11,12 @@
 /* ************************************************************************** */
 
 #include <unistd.h>
-#include <stdio.h>
 #include <string.h>
 
 void	ft_putchar(char c)
 {
 	write(1, &c, 1);
 }
-
-//passar dois parametros char e encontrar o segundo dentro do primeiro
 
 char	*ft_strstr(char *str, char *to_find)
 {
@@ -43,22 +40,4 @@ char	*ft_strstr(char *str, char *to_find)
 		i++;
 	}
 	return (NULL);
-}
-
-int		main(void)
-{
-	char	arr1[] = "humberto";
-	char	arr2[] = "b";
-	char	*ptr1;
-	char	*ptr2;
-	char	*ret1;
-	char	*ret2;
-
-	ptr1 = arr1;
-	ptr2 = arr2;
-
-	ret1 = strstr(ptr1, ptr2);
-	printf("Return = %s\n", ret1);
-	ret2 = ft_strstr(ptr1, ptr2);
-	printf("Return = %s\n", ret2);
 }

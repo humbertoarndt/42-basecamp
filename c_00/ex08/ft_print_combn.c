@@ -25,7 +25,6 @@ void	print_digits(int *range, int n)
 
 	show = 1;
 	i = -0;
-	//Não mostrar caso número da esquerda seja maior que número da direta
 	while(++i < n)
 		if (range[i - 1] >= range[i])
 			show = 0;
@@ -51,11 +50,9 @@ void	ft_print_combn(int n)
 
 	if (n < 0 || n > 10)
 		return;
-	//encontrar o tamanho de n e iniciar array
 	i = -1;
 	while (++i < n)
 		range[i] = i;
-	//enquanto range menor que 10 - n e n tamanho maior que 0
 	while (range[0] <= (10 - n) && n > 0)
 	{	
 		print_digits(range, n);
@@ -73,11 +70,4 @@ void	ft_print_combn(int n)
 		}
 		
 	}
-}
-
-int	main(void)
-{
-	//n = 1 -> 0, 1, 2, ... 8, 9
-	//n = 2 -> 01, 02, 03, ... 89
-	ft_print_combn(2);
 }
